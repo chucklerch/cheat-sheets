@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VS Code Hotkeys</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./w3.css" title="w3">
+    <style>
+        kbd {
+            margin: 0px 0.1em;
+            padding: 0.1em 0.6em;
+            border-radius: 3px;
+            border: 1px solid rgb(204, 204, 204);
+            color: rgb(51, 51, 51);
+            line-height: 1.4;
+            display: inline-block;
+            box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 2px #ffffff;
+            background-color: rgb(247, 247, 247);
+            text-shadow: 0 1px 0 #fff;
+            font-size: 12px;
+            font-family: Roboto Mono;
+        }
+
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: Roboto, sans-serif;
+            font-size: 12px;
+        }
+
+        body {
+            width: 11in;
+            height: 8.5in;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page {
+            /* page-break-after: always; */
+            /* position: relative; */
+            width: 11in;
+            height: 8.5in;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="w3-container">
+        <div class="w3-panel w3-border w3-light-grey w3-round-large">
+            <p style="text-align: center;"><b>VS Code Hotkeys</b></p>
+        </div>
+    </div>
+
+    <!-- First Row-->
+    <div class="w3-row">
+        <!-- General Commands -->
+        <div class="w3-col w3-container" style="width:50%">
+            <table class="w3-table-all w3-card-4">
+                <tr class="w3-grey">
+                    <th colspan="3" style="text-align: center;">General Commands</th>
+                </tr>
+                <tr>
+                    <td style="width: 5%;"><i class="fa fa-bars"></i></td>
+                    <td style="width: 50%;"><kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd><b>-</b></kbd></td>
+                    <td>Split Horizontally</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-bars fa-rotate-90"></i></td>
+                    <td><kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>+</kbd></td>
+                    <td>Split Vertically</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-a"></i></td>
+                    <td><kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>D</kbd></td>
+                    <td>Split Auto</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-arrows"></i></td>
+                    <td><kbd>ALT</kbd> + <kbd><i class="fa fa-arrows"></i></kbd></td>
+                    <td>Move Focus</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-arrows-to-dot"></i></td>
+                    <td><kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd><i class="fa fa-arrows"></i></kbd></td>
+                    <td>Resize</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-rectangle-xmark"></i></td>
+                    <td><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd></td>
+                    <td>Close Pane</td>
+                </tr>
+            </table>
+        </div>
+        <!-- Font Commands -->
+        <div class="w3-col w3-container" style="width: 50%;">
+            <table class="w3-table-all w3-card-4">
+                <tr class="w3-grey">
+                    <th colspan="3" style="text-align: center;">Font Commands</th>
+                </tr>
+                <tr>
+                    <td style="width: 5%;"><i class="fa fa-arrow-up-wide-short"></i></td>
+                    <td style="width: 50%;"><kbd>CTRL</kbd> + <kbd>=</kbd></td>
+                    <td>Increase font size</td>
+                </tr>
+                <tr>
+                    <td style="width: 5%;"><i class="fa fa-arrow-down-wide-short"></i></td>
+                    <td style="width: 50%;"><kbd>CTRL</kbd> + <kbd><b>-</b></kbd></td>
+                    <td>Decrease font size</td>
+                </tr>
+                <tr>
+                    <td style="width: 5%;"><i class="fa fa-rotate"></i></td>
+                    <td style="width: 50%;"><kbd>CTRL</kbd> + <kbd>0</kbd></td>
+                    <td>Reset font size</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- End First Row -->
+    <br>
+    
+    <!-- Second Row -->
+    <div class="w3-row">
+        <!-- Misc Commands -->
+        <div class="w3-col w3-container" style="width: 50%;">
+            <table class="w3-table-all w3-card-4">
+                <tr class="w3-grey">
+                    <th colspan="3" style="text-align: center;">Misc Commands</th>
+                </tr>
+                <tr>
+                    <td style="width: 5%;"><i class="fa fa-palette"></i></td>
+                    <td style="width: 50%;"><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd></td>
+                    <td>Open Command Palette</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-gear"></i></td>
+                    <td><kbd>CTRL</kbd> + <kbd>,</kbd></td>
+                    <td>Open Settings UI</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-file-code"></i></td>
+                    <td><kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>,</kbd></td>
+                    <td>Open Settings File</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-magnifying-glass"></i></td>
+                    <td><kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd></td>
+                    <td>Find</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- End Second Row -->
+
+</body>
+
+</html>
