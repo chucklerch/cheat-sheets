@@ -1,0 +1,572 @@
+<html style="background: #fff;">
+    <head>
+        <style>
+            @font-face {
+                font-family: "ff-good-web-pro";
+                src: url("https://use.typekit.net/af/a92a50/00000000000000003b9b0604/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/a92a50/00000000000000003b9b0604/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),
+                    url("https://use.typekit.net/af/a92a50/00000000000000003b9b0604/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+                font-display: auto;
+                font-style: normal;
+                font-weight: 700;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro";
+                src: url("https://use.typekit.net/af/b5f3d4/00000000000000003b9b0605/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/b5f3d4/00000000000000003b9b0605/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),
+                    url("https://use.typekit.net/af/b5f3d4/00000000000000003b9b0605/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+                font-display: auto;
+                font-style: italic;
+                font-weight: 700;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro";
+                src: url("https://use.typekit.net/af/47dee7/00000000000000003b9b05ff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/47dee7/00000000000000003b9b05ff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),
+                    url("https://use.typekit.net/af/47dee7/00000000000000003b9b05ff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+                font-display: auto;
+                font-style: normal;
+                font-weight: 400;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro";
+                src: url("https://use.typekit.net/af/1ffeae/00000000000000003b9b05fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/1ffeae/00000000000000003b9b05fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),
+                    url("https://use.typekit.net/af/1ffeae/00000000000000003b9b05fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+                font-display: auto;
+                font-style: italic;
+                font-weight: 400;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro-condensed";
+                src: url("https://use.typekit.net/af/64399a/00000000000000003b9b0621/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/64399a/00000000000000003b9b0621/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),
+                    url("https://use.typekit.net/af/64399a/00000000000000003b9b0621/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+                font-display: auto;
+                font-style: normal;
+                font-weight: 700;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro-condensed";
+                src: url("https://use.typekit.net/af/22eab5/00000000000000003b9b0620/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/22eab5/00000000000000003b9b0620/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),
+                    url("https://use.typekit.net/af/22eab5/00000000000000003b9b0620/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+                font-display: auto;
+                font-style: italic;
+                font-weight: 700;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro-condensed";
+                src: url("https://use.typekit.net/af/186b2a/00000000000000003b9b061a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/186b2a/00000000000000003b9b061a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),
+                    url("https://use.typekit.net/af/186b2a/00000000000000003b9b061a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+                font-display: auto;
+                font-style: normal;
+                font-weight: 400;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro-condensed";
+                src: url("https://use.typekit.net/af/7d6c87/00000000000000003b9b061b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/7d6c87/00000000000000003b9b061b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),
+                    url("https://use.typekit.net/af/7d6c87/00000000000000003b9b061b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+                font-display: auto;
+                font-style: italic;
+                font-weight: 400;
+            }
+            *,
+            ::after,
+            ::before {
+                box-sizing: border-box;
+            }
+            html {
+                font-family: sans-serif;
+                line-height: 1.15;
+                -webkit-text-size-adjust: 100%;
+                -webkit-tap-highlight-color: transparent;
+            }
+            body {
+                margin: 0;
+                font-family: 'Open Sans Condensed';
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                text-align: left;
+                background-color: #fff;
+            }
+            hr {
+                box-sizing: content-box;
+                height: 0;
+                overflow: visible;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                border: 0;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                text-align: left;
+                box-sizing: border-box;
+                margin: 0;
+                font-family: 'ff-good-web-pro-condensed', 'Oswoal', sans-serif;
+                padding: 0;
+                line-height: 1;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 1.75rem;
+            }
+            p {
+                margin-top: 0;
+                margin-bottom: 1rem;
+            }
+            .d-flex {
+                display: flex !important;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: left;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-weight: 400;
+                box-sizing: border-box;
+            }
+            .header-img {
+                height: 0.8em;
+                vertical-align: baseline;
+                transform: translateY(0.05em);
+                width: auto;
+            }
+            .pf-trait {
+                font-family: "ff-good-web-pro-condensed", sans-serif;
+                box-sizing: border-box;
+                display: inline-block;
+                font-size: 0.9rem;
+                line-height: 1;
+                text-transform: uppercase;
+                background: #5d0000;
+                padding-left: 0.5rem !important;
+                padding-right: 0.5rem;
+                padding-top: 0.4rem;
+                padding-bottom: 0.25rem;
+                color: #fff;
+                font-weight: bold;
+                margin: 0;
+                border: 2px solid #d8c384;
+                min-width: 5rem;
+                text-align: center;
+                letter-spacing: 0.05rem;
+
+            }
+            .pf-trait-edge {
+                font-family: "ff-good-web-pro-condensed", sans-serif;
+                box-sizing: border-box;
+                display: inline-block;
+                font-size: 0.9rem;
+                line-height: 1;
+                margin: 0;
+                border: 2px solid #d8c384;
+                text-align: center;
+                letter-spacing: 0.05rem;
+                padding: 0.4rem 0 0.25rem 0 !important;
+                width: 3px;
+                min-width: 0;
+                overflow: hidden;
+                vertical-align: top;
+                background-color: #d8c384;
+                
+            }
+            .pf-trait-rare {
+                background: #002564;
+                min-width: auto;
+            }
+            .pf-trait-size {
+                background: #3a7a58;
+                min-width: auto;
+            }
+            .pf-trait-uncommon {
+                background: #98503c;
+                min-width: auto;
+            }
+            .pf-trait-unique {
+                background: #54166d;
+                min-width: auto;
+            }
+            .text-pf {
+                box-sizing: border-box;
+                line-height: 140%;
+                text-align: justify;
+                font-size: 1.1rem;
+                font-family: "ff-good-web-pro";
+            }
+            .hang {
+                font-weight: 400;
+                line-height: 140%;
+                text-align: justify;
+                font-size: 1.1rem;
+                box-sizing: border-box;
+                margin: 0;
+                padding-left: 1em;
+                text-indent: -1em;
+            }
+            b,
+            strong {
+                font-weight: bolder;
+            }
+            .ml-auto,
+            .mx-auto {
+                margin: 0;
+                padding: 0;
+                line-height: 1;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 1.75rem;
+                margin-left: auto !important;
+            }
+            @media print {
+                .my-block {
+                    break-inside: avoid;
+                }
+            }
+    	</style>
+    </head>
+    <body>
+        <div style="width: 75%; margin: 1rem auto;">
+
+            <!-- NEEDLE DARTS -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Needle Darts
+                        <img class="header-img" src="pfIcons/2a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Cantrip 2</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Attack</div>
+                <div class="pf-trait">Cantrip</div>
+                <div class="pf-trait">Concentrate</div>
+                <div class="pf-trait">Manipulate</div>
+                <div class="pf-trait">Metal</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> arcane, divine, occult, primal</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/2a.png"/></p>
+                    <p class="hang"><strong>Range</strong> 60 feet, <strong>Targets</strong> 1 creature</p>
+                    <p class="hang"><strong>Defence</strong> AC</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You shape three needles out of a piece of metal in your possession and send them flying in a tight group toward one target.
+                        Make a spell attack roll against your target's AC. The needles deal 4d4 piercing damage and might cause bleeding. 
+                        The needles impart any special properties of the metal that forms them; for instance, cold iron needles deal additional 
+                        damage to creatures with weakness to cold iron. All the needles are made of the same metal, and the metal returns to you after the attack.
+                        <br><br>
+                        <strong>Critical Success</strong> The target takes double damage and 2 persistent bleed damage.<br>
+                        <strong>Success</strong> The target takes full damage.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Guidance -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Guidance
+                        <img class="header-img" src="pfIcons/1a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Cantrip 2</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Cantrip</div>
+                <div class="pf-trait">Divination</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> divine, occult, primal</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/1a.png"/> verbal</p>
+                    <p class="hang"><strong>Range</strong> 30 feet, <strong>Targets</strong> 1 creature</p>
+                    <p class="hang"><strong>Duration</strong> until the start of your next turn</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You ask for divine guidance, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the 
+                        target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. 
+                        If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+            
+            <!-- Rousing Splash -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Rousing Splash
+                        <img class="header-img" src="pfIcons/2a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Cantrip 2</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Cantrip</div>
+                <div class="pf-trait">Concentrate</div>
+                <div class="pf-trait">Manipulate</div>
+                <div class="pf-trait">Water</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> divine, primal</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/2a.png"/></p>
+                    <p class="hang"><strong>Range</strong> 60 feet, <strong>Targets</strong> 1 creature</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You cause a splash of cold water to descend on an ally's head, granting some temporary vigor. 
+                        The target gains 2d4 temporary Hit Points, which last for 1 minute. 
+                        The target is then temporarily immune to the temporary Hit Points from rousing splash for 10 minutes. 
+                        The target can also attempt an immediate flat check to recover from a single source of persistent acid or fire damage, 
+                        with the DC reduction from appropriate assistance.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Shield -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Shield
+                        <img class="header-img" src="pfIcons/1a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Cantrip 2</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Abjuration</div>
+                <div class="pf-trait">Cantrip</div>
+                <div class="pf-trait">Force</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> arcane, divine, occult</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/1a.png"/> verbal</p>
+                    <p class="hang"><strong>Duration</strong> until the start of your next turn</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus
+                        to AC until the start of your next turn, but it doesn't require a hand to use.
+
+                        While the spell is in effect, you can use the Shield Block reaction with your magic shield. 
+                        The shield has Hardness 5. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes. 
+                        Unlike a normal Shield Block, you can use the spell's reaction against the <i>magic missle</i> spell.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Haunting Hymn -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Haunting Hymn
+                        <img class="header-img" src="pfIcons/2a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Cantrip 2</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Audutory</div>
+                <div class="pf-trait">Cantrip</div>
+                <div class="pf-trait">Evocation</div>
+                <div class="pf-trait">Sonic</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> divine, occult</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/2a.png"/> somatic, verbal</p>
+                    <p class="hang"><strong>Area</strong> 15 foot cone</p>
+                    <p class="hang"><strong>Saving Throw</strong> Fortitude</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You echo a jarring hymn that only creatures in the area can hear. 
+                        The hymn deals sonic damage equal to your spellcasting ability modifier (4), with a basic Fortitude save. 
+                        If a target critically fails the save, it's also deafened for 1 minute.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Concordant Choir -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Concordant Choir
+                        <img class="header-img" src="pfIcons/1a.png"/> to <img class="header-img" src="pfIcons/3a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Spell 1</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Evocation</div>
+                <div class="pf-trait">Sonic</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> divine, occult</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/1a.png"/> to <img class="header-img" src="pfIcons/3a.png"/></p>
+                    <p class="hang"><strong>Range</strong> 30 feet; <strong>Targets</strong> varies</p>
+                    <p class="hang"><strong>Saving Throw</strong> basic Fortitude</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You unleash a dangerous consonance of reverberating sound, focusing on a single target or spreading out to damage many foes. 
+                        The number of actions you spend Casting this Spell determines its targets, range, area, and other parameters.
+                        <br><br>
+                        <img class="header-img" src="pfIcons/1a.png"/> (verbal) The spell deals 1d4 sonic damage to a single enemy, with a basic Fortitude save.<br>
+                        <img class="header-img" src="pfIcons/2a.png"/> (somatic, verbal) The spell deals 2d4 sonic damage to all creatures in a 10-foot burst, with a basic Fortitude save.<br>
+                        <img class="header-img" src="pfIcons/3a.png"/> (material, somatic, verbal) The spell deals 2d4 sonic damage to all creatures in a 30-foot emanation, with a basic Fortitude save.<br>
+                    </p>
+                    <p>
+                    <strong>Heightened (+1)</strong>The damage increases by 1d4 for the 1-action version, or 2d4 for the other versions.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Harm -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Harm
+                        <img class="header-img" src="pfIcons/1a.png"/> to <img class="header-img" src="pfIcons/3a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Spell 1</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Necromancy</div>
+                <div class="pf-trait">Negative</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> divine</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/1a.png"/> to <img class="header-img" src="pfIcons/3a.png"/></p>
+                    <p class="hang"><strong>Range</strong> varies; <strong>Targets</strong> 1 living creature or 1 willing undead creature</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You channel negative energy to harm the living or heal the undead. If the target is a living creature, you deal 1d8 negative damage to it, 
+                        and it gets a basic Fortitude save. If the target is a willing undead creature, you restore that amount of Hit Points. 
+                        The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.
+                        <br><br>
+                        <img class="header-img" src="pfIcons/1a.png"/> (somatic) The spell has a range of touch.<br>
+                        <img class="header-img" src="pfIcons/2a.png"/> (somatic, verbal) The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8<br>
+                        <img class="header-img" src="pfIcons/3a.png"/> (material, somatic, verbal) You disperse negative energy in a 30-foot emanation. This targets all living and undead creatures in the area.<br>
+                    </p>
+                    <p>
+                        <strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Fear -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Fear
+                        <img class="header-img" src="pfIcons/2a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Spell 1</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Emotin</div>
+                <div class="pf-trait">Enchantment</div>
+                <div class="pf-trait">Fear</div>
+                <div class="pf-trait">Mental</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> arcane, divine, occult, primal</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/2a.png"/> somatic, verbal</p>
+                    <p class="hang"><strong>Range</strong> 30 feet</p>
+                    <p class="hang"><strong>Saving Throw</strong> Will; <strong>Duration</strong> varies</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You plant fear in the target; it must attempt a Will save.
+                        <br><br>
+                        <strong>Critical Success</strong> The target is unaffected.<br>
+                        <strong>Success</strong>The target is frightened 1.<br>
+                        <strong>Failure</strong>The target is frightened 2.<br>
+                        <strong>Critical Failure</strong>The target is frightened 3 and fleeing for 1 round.
+                    </p>
+                    <p>
+                        <strong>Heightened (3rd)</strong> You can target up to five creatures.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Sudden Blight -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Sudden Blight
+                        <img class="header-img" src="pfIcons/2a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Spell 2</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Necromancy</div>
+                <div class="pf-trait">Negative</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> divine, primal</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/2a.png"/> somatic, verbal</p>
+                    <p class="hang"><strong>Range</strong> 120 feet; <strong>Area</strong> 20 foot burst</p>
+                    <p class="hang"><strong>Saving Throw</strong> basic Fortitude</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You accelerate the processes of decay in the area. Each living creature in the area takes 2d10 negative damage (basic Fortitude save). 
+                        A creature afflicted by a disease takes a –2 circumstance penalty to this save.
+                        <br><br>
+                        You can also direct the blight to rot all Small and Tiny non-creature plants in the area, eliminating non-magical undergrowth and any r
+                        esulting difficult terrain, cover, and concealment. Sudden blight attempts to counteract any magical effect on the plants before withering them.
+                    </p>
+                    <p>
+                        <strong>Heightened (+1)</strong> The damage increases by 1d10.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Dispel Magic -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Dispel Magic
+                        <img class="header-img" src="pfIcons/2a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">Spell 2</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Abjuration</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Traditions</strong> arcane, divine, occult, primal</p>
+                    <p class="hang"><strong>Cast</strong>  <img class="header-img" src="pfIcons/2a.png"/> somatic, verbal</p>
+                    <p class="hang"><strong>Range</strong> 120 feet; <strong>Targets</strong> 1 spell effect or unattended magic item</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You unravel the magic behind a spell or effect. Attempt a counteract check against the target. If you successfully counteract a magic item, 
+                        the item becomes a mundane item of its type for 10 minutes. This doesn't change the item's non-magical properties. 
+                        If the target is an artifact or similar item, you automatically fail.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+        </div>
+    </body>
+</html>

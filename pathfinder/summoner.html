@@ -1,0 +1,427 @@
+<html style="background: #fff;">
+    <head>
+        <style>
+            @font-face {
+                font-family: "ff-good-web-pro";
+                src: url("https://use.typekit.net/af/a92a50/00000000000000003b9b0604/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/a92a50/00000000000000003b9b0604/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),
+                    url("https://use.typekit.net/af/a92a50/00000000000000003b9b0604/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+                font-display: auto;
+                font-style: normal;
+                font-weight: 700;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro";
+                src: url("https://use.typekit.net/af/b5f3d4/00000000000000003b9b0605/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/b5f3d4/00000000000000003b9b0605/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),
+                    url("https://use.typekit.net/af/b5f3d4/00000000000000003b9b0605/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+                font-display: auto;
+                font-style: italic;
+                font-weight: 700;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro";
+                src: url("https://use.typekit.net/af/47dee7/00000000000000003b9b05ff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/47dee7/00000000000000003b9b05ff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),
+                    url("https://use.typekit.net/af/47dee7/00000000000000003b9b05ff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+                font-display: auto;
+                font-style: normal;
+                font-weight: 400;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro";
+                src: url("https://use.typekit.net/af/1ffeae/00000000000000003b9b05fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/1ffeae/00000000000000003b9b05fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),
+                    url("https://use.typekit.net/af/1ffeae/00000000000000003b9b05fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+                font-display: auto;
+                font-style: italic;
+                font-weight: 400;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro-condensed";
+                src: url("https://use.typekit.net/af/64399a/00000000000000003b9b0621/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/64399a/00000000000000003b9b0621/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),
+                    url("https://use.typekit.net/af/64399a/00000000000000003b9b0621/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+                font-display: auto;
+                font-style: normal;
+                font-weight: 700;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro-condensed";
+                src: url("https://use.typekit.net/af/22eab5/00000000000000003b9b0620/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/22eab5/00000000000000003b9b0620/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),
+                    url("https://use.typekit.net/af/22eab5/00000000000000003b9b0620/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+                font-display: auto;
+                font-style: italic;
+                font-weight: 700;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro-condensed";
+                src: url("https://use.typekit.net/af/186b2a/00000000000000003b9b061a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/186b2a/00000000000000003b9b061a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),
+                    url("https://use.typekit.net/af/186b2a/00000000000000003b9b061a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+                font-display: auto;
+                font-style: normal;
+                font-weight: 400;
+            }
+            @font-face {
+                font-family: "ff-good-web-pro-condensed";
+                src: url("https://use.typekit.net/af/7d6c87/00000000000000003b9b061b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),
+                    url("https://use.typekit.net/af/7d6c87/00000000000000003b9b061b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),
+                    url("https://use.typekit.net/af/7d6c87/00000000000000003b9b061b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+                font-display: auto;
+                font-style: italic;
+                font-weight: 400;
+            }
+            *,
+            ::after,
+            ::before {
+                box-sizing: border-box;
+            }
+            html {
+                font-family: sans-serif;
+                line-height: 1.15;
+                -webkit-text-size-adjust: 100%;
+                -webkit-tap-highlight-color: transparent;
+            }
+            body {
+                margin: 0;
+                font-family: 'Open Sans Condensed';
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                text-align: left;
+                background-color: #fff;
+            }
+            hr {
+                box-sizing: content-box;
+                height: 0;
+                overflow: visible;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                border: 0;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                text-align: left;
+                box-sizing: border-box;
+                margin: 0;
+                font-family: 'ff-good-web-pro-condensed', 'Oswoal', sans-serif;
+                padding: 0;
+                line-height: 1;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 1.75rem;
+            }
+            p {
+                margin-top: 0;
+                margin-bottom: 1rem;
+            }
+            .d-flex {
+                display: flex !important;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: left;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-weight: 400;
+                box-sizing: border-box;
+            }
+            .header-img {
+                height: 0.8em;
+                vertical-align: baseline;
+                transform: translateY(0.05em);
+                width: auto;
+            }
+            .pf-trait {
+                font-family: "ff-good-web-pro-condensed", sans-serif;
+                box-sizing: border-box;
+                display: inline-block;
+                font-size: 0.9rem;
+                line-height: 1;
+                text-transform: uppercase;
+                background: #5d0000;
+                padding-left: 0.5rem !important;
+                padding-right: 0.5rem;
+                padding-top: 0.4rem;
+                padding-bottom: 0.25rem;
+                color: #fff;
+                font-weight: bold;
+                margin: 0;
+                border: 2px solid #d8c384;
+                min-width: 5rem;
+                text-align: center;
+                letter-spacing: 0.05rem;
+
+            }
+            .pf-trait-edge {
+                font-family: "ff-good-web-pro-condensed", sans-serif;
+                box-sizing: border-box;
+                display: inline-block;
+                font-size: 0.9rem;
+                line-height: 1;
+                margin: 0;
+                border: 2px solid #d8c384;
+                text-align: center;
+                letter-spacing: 0.05rem;
+                padding: 0.4rem 0 0.25rem 0 !important;
+                width: 3px;
+                min-width: 0;
+                overflow: hidden;
+                vertical-align: top;
+                background-color: #d8c384;
+                
+            }
+            .pf-trait-rare {
+                background: #002564;
+                min-width: auto;
+            }
+            .pf-trait-size {
+                background: #3a7a58;
+                min-width: auto;
+            }
+            .pf-trait-uncommon {
+                background: #98503c;
+                min-width: auto;
+            }
+            .pf-trait-unique {
+                background: #54166d;
+                min-width: auto;
+            }
+            .text-pf {
+                box-sizing: border-box;
+                line-height: 140%;
+                text-align: justify;
+                font-size: 1.1rem;
+                font-family: "ff-good-web-pro";
+            }
+            .hang {
+                font-weight: 400;
+                line-height: 140%;
+                text-align: justify;
+                font-size: 1.1rem;
+                box-sizing: border-box;
+                margin: 0;
+                padding-left: 1em;
+                text-indent: -1em;
+            }
+            b,
+            strong {
+                font-weight: bolder;
+            }
+            .ml-auto,
+            .mx-auto {
+                margin: 0;
+                padding: 0;
+                line-height: 1;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 1.75rem;
+                margin-left: auto !important;
+            }
+            @media print {
+                .my-block {
+                    break-inside: avoid;
+                }
+            }
+    	</style>
+    </head>
+    <body>
+        <div style="width: 75%; margin: 1rem auto;">
+
+            <!-- ACT TOGETHER -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>act together
+                        <img class="header-img" src="pfIcons/1a.png"/>
+                        to 
+                        <img class="header-img" src="pfIcons/3a.png"/>
+                    </h1>
+                    <!-- <h1 class="ml-auto">focus 1</h1> -->
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Summoner</div>
+                <div class="pf-trait">Tandem</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Frequency</strong> once per round</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You and your eidolon act as one. Either you or your eidolon takes an action or activity using the same number of actions as 
+                        Act Together, and the other takes a single action. For example, if you spent 2 actions to Act Together, you could cast 
+                        burning hands (2 actions) and your eidolon could Strike (1 action), or your eidolon could use its Breath Weapon (2 actions) 
+                        and you could Stride (1 action).
+                        <br><br>
+                        This lets you each use separate exploration activities like Avoid Notice as you travel.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+            
+            <!-- BOOST EIDOLON -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>boost eidolon
+                        <img class="header-img" src="pfIcons/1a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">cantrip 2</h1>
+                </div>
+                <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait pf-trait-uncommon">Uncommon</div>
+                <div class="pf-trait">Cantrip</div>
+                <div class="pf-trait">Evocation</div>
+                <div class="pf-trait">Summoner</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Cast</strong> Verbal</p>
+                    <p class="hang"><strong>Range</strong> 100 feet; <strong>Targets</strong> your eidolon</p>
+                    <p class="hang"><strong>Duration</strong> 1 round</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>
+                        You focus deeply on the link between you and your eidolon and boost the power of your eidolon's attacks. 
+                        Your eidolon gains a +2 status bonus to damage rolls with its unarmed attacks. 
+                        If your eidolon's Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, 
+                        to a maximum of +8 with four weapon damage dice.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- REINFORCE EEIDOLON -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>reinforce eidolon
+                        <img class="header-img" src="pfIcons/1a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">cantrip 2</h1>
+                </div>
+                    <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait pf-trait-uncommon">Uncommon</div>
+                <div class="pf-trait">Cantrip</div>
+                <div class="pf-trait">Evocation</div>
+                <div class="pf-trait">Summoner</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Cast</strong> Verbal</p>
+                    <p class="hang"><strong>Range</strong> 100 feet; <strong>Targets</strong> your eidolon</p>
+                    <p class="hang"><strong>Duration</strong> 1 round</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You focus deeply on the link between you and your eidolon and reinforce your eidolon's defenses. 
+                        Your eidolon gains a +1 status bonus to AC and saving throws, plus resistance to all damage equal to half the spell's level. 
+                        Your eidolon can benefit from either boost eidolon or reinforce eidolon, but not both; 
+                        if you cast one of these spells during the other's duration, the newer spell replaces the older one.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- EVOLUTION SURGE -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Evolution Surge
+                        <img class="header-img" src="pfIcons/2a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">focus 1</h1>
+                </div>
+                    <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait pf-trait-uncommon">Uncommon</div>
+                <div class="pf-trait">Morph</div>
+                <div class="pf-trait">Transmutation</div>
+                <div class="pf-trait">Summoner</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <p class="hang"><strong>Cast</strong> Somatic Verbal</p>
+                    <p class="hang"><strong>Range</strong> 100 feet; <strong>Targets</strong> your eidolon</p>
+                    <p class="hang"><strong>Duration</strong> 1 minute</p>
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You flood your eidolon with power, creating a temporary evolution in your eidolon's capabilities. 
+                        Choose one of the following effects:
+                        <ul>
+                            <li>Your eidolon gains low-light vision and darkvision.</li>
+                            <li>Your eidolon gains scent as an imprecise sense up to 30 feet.</li>
+                            <li>Your eidolon can breathe underwater and gains a swim Speed equal to its land Speed or 30 feet, whichever is less. 
+                                Alternatively, if your eidolon is normally aquatic, it can breathe air and gains a land Speed equal to its swim Speed or 30 feet, 
+                                whichever is less. Either way, it gains the amphibious trait.</li>
+                            <li>Your eidolon gains a +20-foot status bonus to its Speed.</li>
+                        </ul>
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- TANDEM MOVEMENT -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Tandem Movement
+                        <img class="header-img" src="pfIcons/1a.png"/>
+                    </h1>
+                    <h1 class="ml-auto">feat 4</h1>
+                </div>
+                    <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">Summoner</div>
+                <div class="pf-trait">Tandem</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        You and your eidolon move together. You each use a single action to Stride. 
+                        Either of you that has the corresponding movement type can Burrow, Climb, Fly, or Swim instead.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Recognize Spell -->
+            <div class="my-block">
+                <div class="d-flex">
+                    <h1>Recognize Spell
+                        <img class="header-img" src="pfIcons/ra.png"/>
+                    </h1>
+                    <h1 class="ml-auto">feat 1</h1>
+                </div>
+                    <!-- Horizontal line -->
+                <div style="background: rgb(119, 119, 119); height: 3px; margin: 0px 0px 0.2rem;"></div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="pf-trait">General</div>
+                <div class="pf-trait">Secret</div>
+                <div class="pf-trait">Skill</div>
+                <!-- <div style="" class="pf-trait pf-trait-edge">&nbsp;</div> -->
+                <div class="text-pf">
+                    <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div>
+                    <p>             
+                        If you are trained in the appropriate skill for the spell’s tradition and it’s a common spell of 2nd level or lower, you automatically identify it 
+                        (you still roll to attempt to get a critical success, but can’t get a worse result than success). 
+                        The highest level of spell you automatically identify increases to 4 if you’re an expert, 6 if you’re a master, and 10 if you’re legendary. 
+                        The GM rolls a secret Arcana, Nature, Occultism, or Religion check, whichever corresponds to the tradition of the spell being cast. 
+                        If you’re not trained in the skill, you can’t get a result better than failure.
+                        <br><br>
+                        <strong>Critical Success</strong> You correctly recognize the spell and gain a +1 circumstance bonus to your saving throw or your AC against it.<br>
+                        <strong>Success</strong> You correctly recognize the spell.<br>
+                        <strong>Failure</strong> You fail to recognize the spell.<br>
+                        <strong>Critical Failure</strong> You misidentify the spell as another spell entirely, of the GM’s choice.
+                    </p>
+                    <!-- <div style="background: #cccccc; height: 3px; margin: 1px 0; border-bottom: 1px solid #00000066;"></div> -->
+                </div>
+            </div>
+
+
+        </div>
+    </body>
+</html>
